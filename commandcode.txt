@@ -45,3 +45,17 @@ git branch "branch name"
 
 //to switch to a new branch or another branch
 git checkout "branch name"
+
+//To merge the changes of the new branch with the master branch
+git merge "name of other branch"
+
+//To delete a branch after it had been merged with the master branch
+git branch -d "name of branch"
+//Use capital D for file that have not been merged
+git branch -D "name of branch"
+
+//To add a file that you do not want to show up when you push your work to a public repository or //when you stage it
+create a file called .gitignore
+then include the name of the file that you do not want to show up.
+Example: do not show this file 
+            keys.txt
