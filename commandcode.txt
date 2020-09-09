@@ -10,8 +10,8 @@ git init
 //To see the git initialize file
 ls -a
 
-//To commit file
-git add "filename"
+//To stage file
+git add "filename" or git add . "filename" (to stage all file)
 
 //check file status
 git status
@@ -19,8 +19,8 @@ git status
 //To see git history
 git log
 
-//To commit changes
-commit -m "the kind of change"
+//To add commit changes message
+git commit -m "the kind of change"
 
 //To see what is different about a file you commit
 git diff "filename"
@@ -33,3 +33,15 @@ git reset --hard "hash number-looks like this-> 19b3aacfc0958a68e98b364816b4990c
 
 //After doing the hard commit, you will want to point the master arrow to the most resent commit //without changinging any content, use:
 git reset --soft HEAD@{1}
+
+
+Branching and Merging using Git:
+
+//To check all branches 
+git branch
+
+//To create new branch
+git branch "branch name"
+
+//to switch to a new branch or another branch
+git checkout "branch name"
