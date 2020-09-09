@@ -19,7 +19,7 @@ git status
 //To see git history
 git log
 
-//To add commit changes message
+//To commit file and add commit changes message
 git commit -m "the kind of change"
 
 //To see what is different about a file you commit
