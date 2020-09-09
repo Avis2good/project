@@ -12,6 +12,7 @@ ls -a
 
 //To commit file
 git add "filename"
+
 //check file status
 git status
 
@@ -23,3 +24,12 @@ commit -m "the kind of change"
 
 //To see what is different about a file you commit
 git diff "filename"
+
+//To revert to the previous commit version
+git checkout "filename"
+
+//If you are not happy with your commit and wants to go back to a previous version of commit and not //the one that was just committed. ex commit 4 was just committed but you want to revert to commit 2.
+git reset --hard "hash number-looks like this-> 19b3aacfc0958a68e98b364816b4990cb84b11a9"
+
+//After doing the hard commit, you will want to point the master arrow to the most resent commit //without changinging any content, use:
+git reset --soft HEAD@{1}
