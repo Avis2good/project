@@ -1,0 +1,20 @@
+//to see git version
+git --version
+
+//To open a file in bracket
+brackets "project name"/
+
+//Initialize git
+git init
+
+//To see the git initialize file
+ls -a
+
+//To commit file
+git add "filename"
+//check file status
+git status
+
+//To see git history
+git log
+
