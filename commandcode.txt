@@ -18,3 +18,8 @@ git status
 //To see git history
 git log
 
+//To commit changes
+commit -m "the kind of change"
+
+//To see what is different about a file you commit
+git diff "filename"
